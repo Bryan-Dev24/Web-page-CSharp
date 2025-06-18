@@ -1,0 +1,99 @@
+# Sistema de Gestión de Biblioteca
+
+## 1. Estructura del Proyecto
+
+El proyecto está organizado en diferentes capas:
+
+- `Biblioteca.Core`: Capa de negocio y modelos
+- `Biblioteca.Web`: Interfaz web (MVC)
+- `Biblioteca.Desktop`: Interfaz de escritorio (Windows Forms)
+
+## 2. Entidades Principales
+
+### 2.1 Libro
+- Título (único)
+- ISBN (único)
+- Sinopsis
+- Año de publicación
+- Páginas
+- Autores (relación muchos a muchos)
+- Préstamos (relación uno a muchos)
+
+### 2.2 Autor
+- Nombre
+- Biografía
+- Fecha de nacimiento
+- Libros (relación muchos a muchos)
+
+### 2.3 Usuario
+- Nombre
+- Email (único)
+- Teléfono (único)
+- Dirección
+- Fecha de registro
+- Préstamos (relación uno a muchos)
+
+### 2.4 Préstamo
+- Usuario
+- Libro
+- Fecha de préstamo
+- Fecha de devolución
+- Estado
+
+## 3. Características Técnicas
+
+### 3.1 Base de Datos
+- SQL Server
+- EF Core con configuraciones avanzadas
+- Índices optimizados
+- Control de concurrencia
+- Caché en memoria
+
+### 3.2 API REST
+- Endpoints completos CRUD
+- Paginación
+- Filtros
+- Manejo de errores
+- Documentación Swagger
+
+### 3.3 Seguridad
+- Validación de datos
+- Protección contra SQL injection
+- Manejo de estados
+- Logs de auditoría
+
+## 4. Mejoras Implementadas
+
+1. **Optimización de Consultas**
+   - Índices únicos en campos críticos
+   - Splitting de consultas
+   - Caché en memoria
+
+2. **Gestión de Errores**
+   - Manejo de excepciones
+   - Logging detallado
+   - Respuestas consistentes
+
+3. **Rendimiento**
+   - Paginación
+   - Caché
+   - Índices optimizados
+
+## 5. Recomendaciones de Uso
+
+1. **Desarrollo**
+   - Visual Studio 2022
+   - .NET 8.0
+   - SQL Server
+
+2. **Producción**
+   - Seguir guías de seguridad
+   - Monitorear logs
+   - Mantener backups
+   - Actualizar dependencias
+
+3. **Mantenimiento**
+   - Realizar migraciones
+   - Limpiar caché
+   - Verificar índices
+   - Actualizar documentación

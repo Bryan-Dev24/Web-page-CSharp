@@ -1,0 +1,119 @@
+# Prompt para Manus-AI - Sistema de Biblioteca
+
+## 1. Documento Técnico para Programadores
+
+### Título: Documentação Técnica - Sistema de Biblioteca
+
+### Estrutura do PDF:
+
+1. **Introdução**
+   - Propósito do sistema
+   - Arquitetura geral
+   - Tecnologias utilizadas
+
+2. **Estrutura do Projeto**
+   - Organização de pastas
+   - Estrutura de namespaces
+   - Diagrama de componentes
+
+3. **Modelos de Dados**
+   - Diagrama de entidades
+   - Descrição detalhada de cada modelo
+   - Relacionamentos entre entidades
+
+4. **Banco de Dados**
+   - Schema do banco
+   - Configuração Entity Framework
+   - Migrations
+   - Índices e otimizações
+
+5. **Controllers e API**
+   - Estrutura RESTful
+   - Endpoints disponíveis
+   - Documentação Swagger
+   - Versionamento da API
+
+6. **Segurança**
+   - Autenticação
+   - Autorização
+   - Validação de dados
+   - Proteção contra injeção SQL
+
+7. **Configuração e Deploy**
+   - Variáveis de ambiente
+   - Configuração do banco
+   - Procedimento de deploy
+   - Monitoramento
+
+8. **Manutenção**
+   - Logs
+   - Backup
+   - Atualizações
+   - Troubleshooting
+
+### Formato do PDF:
+- Layout profissional
+- Código fonte com syntax highlighting
+- Diagramas técnicos
+- Tabelas de referência
+- Índice detalhado
+- Fonte: Arial 11pt
+- Margens: 2,5cm
+
+## 2. Documento para Clientes
+
+### Título: Guia do Usuário - Sistema de Biblioteca
+
+### Estrutura do PDF:
+
+1. **Introdução**
+   - Bem-vindo
+   - Propósito do sistema
+   - Benefícios para a biblioteca
+
+2. **Começando**
+   - Acesso ao sistema
+   - Criação de conta
+   - Configurações iniciais
+
+3. **Gestão de Livros**
+   - Cadastro de livros
+   - Busca de livros
+   - Filtros e categorias
+   - Reservas
+
+4. **Gestão de Autores**
+   - Cadastro de autores
+   - Biografias
+   - Relacionamento com livros
+
+5. **Gestão de Usuários**
+   - Cadastro de usuários
+   - Permissões
+   - Histórico de empréstimos
+
+6. **Empréstimos e Devoluções**
+   - Processo de empréstimo
+   - Prazos e multas
+   - Renovações
+   - Devoluções
+
+7. **Relatórios**
+   - Estatísticas
+   - Histórico
+   - Exportações
+
+8. **Suporte**
+   - Dúvidas frequentes
+   - Contato com suporte
+   - Manutenção preventiva
+
+### Formato do PDF:
+- Layout amigável
+- Screenshots da interface
+- Passo a passo com ilustrações
+- Índice fácil de usar
+- Fonte: Calibri 11pt
+- Margens: 2,5cm
+- Ícones explicativos
+- Cores suaves e profissionais

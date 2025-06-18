@@ -1,0 +1,159 @@
+# Library Management System in C#
+
+## Description
+Library management system developed in C# with two interfaces: Web (MVC) and Desktop (Windows Forms).
+
+## Project Structure
+
+- `Biblioteca.Core`: Shared class library
+- `Biblioteca.Web`: Web MVC Application
+- `Biblioteca.Desktop`: Desktop Windows Forms Application
+
+## Prerequisites
+
+- .NET 8.0
+- Visual Studio 2022
+- SQL Server (or compatible database)
+- Entity Framework Core
+- Windows Forms
+
+## Database Configuration
+
+1. Create SQL Server database
+2. Configure connection string in `appsettings.json`
+3. Run migrations:
+   ```bash
+   dotnet ef database update
+   ```
+
+## Running the Project
+
+1. Restore dependencies:
+   ```bash
+   dotnet restore
+   ```
+
+2. Build the project:
+   ```bash
+   dotnet build
+   ```
+
+3. Run the application:
+   ```bash
+   dotnet run
+   ```
+
+## Main Features
+
+### 1. Book Management
+- Book registration
+- Search and filtering
+- Loans and returns
+- Author management
+
+### 2. User Management
+- User registration
+- Permissions and roles
+- Loan history
+- Fine management
+
+### 3. Loan System
+- Book reservations
+- Date management
+- Fine system
+- Loan history
+
+### 4. Security
+- Authentication
+- Authorization
+- Roles and permissions
+- CSRF protection
+
+## Architecture
+
+### 1. System Layers
+
+- **Presentation**
+  - Web MVC Interface
+  - Desktop Interface
+  - REST API
+
+- **Business**
+  - Services
+  - Business rules
+  - Validations
+
+- **Data**
+  - Entities
+  - Repositories
+  - Migrations
+
+### 2. Technologies Used
+
+- **Frontend**
+  - ASP.NET Core MVC
+  - Windows Forms
+  - Bootstrap
+  - jQuery
+
+- **Backend**
+  - .NET 8.0
+  - Entity Framework Core
+  - SQL Server
+  - C#
+
+- **Security**
+  - Identity
+  - JWT
+  - HTTPS
+  - CORS
+
+## Development Guide
+
+### 1. Code Standards
+
+- **Naming**
+  - Classes: PascalCase
+  - Methods: PascalCase
+  - Variables: camelCase
+
+- **Structure**
+  - Separation of concerns
+  - Dependency injection
+  - Design patterns
+
+### 2. Testing
+
+- **Unit Tests**
+  - NUnit
+  - Moq
+  - Code Coverage
+
+- **Integration Tests**
+  - Selenium
+  - Postman
+  - API Testing
+
+### 3. Documentation
+
+- **Code**
+  - XML Documentation
+  - Swagger
+  - API Reference
+
+- **Project**
+  - Architecture
+  - Requirements
+  - User guides
+
+## Contribution
+
+1. Fork the repository
+2. Create a branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
+
+## License
+
+This project is under the MIT License - see the LICENSE.md file for details

@@ -1,0 +1,46 @@
+## Predefinições do Sistema de Biblioteca
+
+### 1. Versão do .NET
+- .NET 8.0
+
+### 2. Estrutura de Pastas
+- Biblioteca.Core/Models - Modelos de dados
+- Biblioteca.Core/Nugets - Pacotes NuGet
+- Biblioteca.Core/Database - Configurações de banco de dados
+- Biblioteca.Core/Controllers - Controladores
+
+### 3. Pacotes NuGet Necessários
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.AspNetCore.Mvc
+- Microsoft.AspNetCore.Mvc.NewtonsoftJson
+- Microsoft.EntityFrameworkCore.Tools
+
+### 4. Configuração do Banco de Dados
+- SQL Server
+- Entity Framework Core
+- Migrations automatizadas
+
+### 5. Estrutura de Controllers
+- LivroController
+- AutorController
+- UsuarioController
+- EmprestimoController
+
+### 6. Regras de Negócio
+- Validação de empréstimos
+- Gestão de prazos
+- Controle de multas
+- Gestão de inventário
+
+### 7. Segurança
+- Autenticação
+- Autorização
+- Validação de dados
+- Proteção contra injeção SQL
+
+### 8. API
+- Endpoints RESTful
+- Documentação Swagger
+- Versionamento
+- Rate limiting

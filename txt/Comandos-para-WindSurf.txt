@@ -1,0 +1,266 @@
+# Comandos para WindSurf - Sistema de Biblioteca
+
+## 1. Comandos Básicos
+
+### 1.1 Criar Novo Controller
+```
+create controller [NomeDoController] with CRUD operations
+```
+
+### 1.2 Criar Novo Modelo
+```
+create model [NomeDoModelo] with properties:
+- [Propriedade1] [Tipo]
+- [Propriedade2] [Tipo]
+```
+
+### 1.3 Criar Novo Serviço
+```
+create service [NomeDoServiço] with methods:
+- [Método1]
+- [Método2]
+```
+
+## 2. Comandos de Estrutura
+
+### 2.1 Criar Nova Camada
+```
+create layer [NomeDaCamada] with structure:
+- Models
+- Services
+- Controllers
+- Repositories
+```
+
+### 2.2 Criar Novo Componente
+```
+create component [NomeDoComponente] in [Caminho]
+```
+
+## 3. Comandos de Banco de Dados
+
+### 3.1 Criar Migrations
+```
+create migration [NomeDaMigration]
+```
+
+### 3.2 Atualizar Banco de Dados
+```
+update database
+```
+
+## 4. Comandos de Testes
+
+### 4.1 Criar Testes Unitários
+```
+create unit tests for [Classe]
+```
+
+### 4.2 Criar Testes de Integração
+```
+create integration tests for [Controller]
+```
+
+## 5. Comandos de Documentação
+
+### 5.1 Gerar Documentação
+```
+generate documentation for [Classe]
+```
+
+### 5.2 Atualizar README
+```
+update readme with [Seção]
+```
+
+## 6. Comandos de Debug
+
+### 6.1 Adicionar Logs
+```
+add logging to [Classe]
+```
+
+### 6.2 Adicionar Breakpoints
+```
+add breakpoints in [Método]
+```
+
+## 7. Comandos de Segurança
+
+### 7.1 Adicionar Autenticação
+```
+add authentication to [Controller]
+```
+
+### 7.2 Adicionar Autorização
+```
+add authorization to [Método]
+```
+
+## 8. Comandos de Performance
+
+### 8.1 Otimizar Consultas
+```
+optimize queries in [Método]
+```
+
+### 8.2 Adicionar Caching
+```
+add caching to [Método]
+```
+
+## 9. Comandos de API
+
+### 9.1 Criar Endpoints
+```
+create api endpoint [Nome] with methods:
+- GET
+- POST
+- PUT
+- DELETE
+```
+
+### 9.2 Adicionar Validação
+```
+add validation to [Endpoint]
+```
+
+## 10. Comandos de UI/UX
+
+### 10.1 Criar Interface
+```
+create interface [Tipo] with components:
+- [Componente1]
+- [Componente2]
+```
+
+### 10.2 Adicionar Estilos
+```
+add styles to [Componente]
+```
+
+## 11. Comandos de Deploy
+
+### 11.1 Preparar Deploy
+```
+prepare deployment for [Ambiente]
+```
+
+### 11.2 Gerar Configurações
+```
+generate config for [Ambiente]
+```
+
+## 12. Comandos de Manutenção
+
+### 12.1 Limpar Cache
+```
+clear cache
+```
+
+### 12.2 Atualizar Dependências
+```
+update dependencies
+```
+
+## 13. Comandos de Backup
+
+### 13.1 Criar Backup
+```
+create backup
+```
+
+### 13.2 Restaurar Backup
+```
+restore backup
+```
+
+## 14. Comandos de Monitoramento
+
+### 14.1 Adicionar Métricas
+```
+add metrics to [Componente]
+```
+
+### 14.2 Configurar Alertas
+```
+configure alerts for [Métrica]
+```
+
+## 15. Comandos de Teste de Carga
+
+### 15.1 Criar Teste de Carga
+```
+create load test for [Endpoint]
+```
+
+### 15.2 Executar Teste de Carga
+```
+run load test
+```
+
+## 16. Comandos de Segurança
+
+### 16.1 Adicionar Proteção XSS
+```
+add xss protection
+```
+
+### 16.2 Adicionar Proteção CSRF
+```
+add csrf protection
+```
+
+## 17. Comandos de Desenvolvimento
+
+### 17.1 Criar Ambiente de Desenvolvimento
+```
+create development environment
+```
+
+### 17.2 Configurar Variáveis de Ambiente
+```
+configure environment variables
+```
+
+## 18. Comandos de Documentação Técnica
+
+### 18.1 Gerar Documentação Técnica
+```
+generate technical documentation
+```
+
+### 18.2 Atualizar API Documentation
+```
+update api documentation
+```
+
+## 19. Comandos de Git
+
+### 19.1 Criar Commit
+```
+create commit with message "[Mensagem]"
+```
+
+### 19.2 Criar Pull Request
+```
+create pull request for [Feature]
+```
+
+## 20. Comandos de CI/CD
+
+### 20.1 Configurar Pipeline
+```
+configure ci/cd pipeline
+```
+
+### 20.2 Adicionar Testes Automatizados
+```
+add automated tests
+```
+
+## Notas Importantes
+- Sempre verifique se o comando está correto antes de executar
+- Use comandos específicos para cada caso de uso
+- Mantenha a consistência nos padrões de código
+- Documente todas as alterações importantes
